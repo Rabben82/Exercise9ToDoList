@@ -1,0 +1,26 @@
+.img-logo{
+    text-align: center;
+}
+.img-logo img{
+    width: 500px;
+}
+.text-all{
+    text-align: center;
+    
+}
+#list-purchase{
+    list-style:circle ;
+    list-style-position: inside;
+    width: fit-content;
+    display: inline-block; 
+}
+.new{
+    background-color: green ;
+    text-decoration-line: line-through;
+}
+.content{
+    width: 600px;
+}
+#img-todolist{
+width: 500px;
+}
