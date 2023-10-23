@@ -1,10 +1,25 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+}
 .img-logo{
     text-align: center;
 }
 .img-logo img{
+    margin-top: 50px;
     width: 500px;
 }
 .text-all{
+    margin-top: 40px;
     text-align: center;
     
 }
@@ -24,3 +39,14 @@
 #img-todolist{
 width: 500px;
 }
+#form-input{
+margin-top: 70px;
+}
+li{
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+
+
+  
+ 
