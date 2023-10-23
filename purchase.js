@@ -8,13 +8,12 @@ const output = document.querySelector('#output');
 
 field1.addEventListener('change', function (){
     userInput = field1.value;
-   //console.log(userInput);
 });
 
 field1.addEventListener('keydown', function(event) {
     if (event.key === 'Enter'){
         userInput = field1.value;
-        event.preventDefault(); // Prevent form submission
+        event.preventDefault();
         addToList();
     }
 });
@@ -24,10 +23,6 @@ addBtn.addEventListener('click', function (){
 });
 
 listAdd.addEventListener('mouseup', function(e){
-   /*  if(e.target && e.target.tagName === 'LI'){
-    // e.target.textContent = 'new';
-     e.target.classList.add('new');
-    } */
     e.target.classList.toggle('new');
 });
 
